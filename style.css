@@ -47,7 +47,7 @@ nav ul li a{
     padding: 7px 13px;
     border-radius: 3px;
 }
-.checkbtn{
+/* .checkbtn{
     font-size: 30px;
     color: white;
     float: left;
@@ -59,7 +59,7 @@ nav ul li a{
 }
 #check{
     display: none;
-}
+} */
 
 a.active, a:hover{
     background-color: #1b9bff;
@@ -121,7 +121,7 @@ a.active, a:hover{
     height: 10px;
     background-color: white;
     transition: 1s;
-    mix-blend-mode: overlay;
+    mix-blend-mode: hue;
 }
 .watch-now:before{
     top: -4px;
@@ -234,6 +234,7 @@ a.active, a:hover{
     }
     .half-width h1{
         font-size: 40px;
+        padding-right: 0;
     }
     .banner{
         flex-direction: column;
