@@ -31,7 +31,6 @@ nav{
     padding-top: 20px;
     display: flex;
     align-items: center;
-    /* padding-left: 105px; */
 }
 nav ul{
     float: right;
@@ -47,20 +46,6 @@ nav ul li a{
     padding: 7px 13px;
     border-radius: 3px;
 }
-/* .checkbtn{
-    font-size: 30px;
-    color: white;
-    float: left;
-    line-height: 80px;
-    margin-left: 20px;
-    margin-right: 130px; 
-    cursor: pointer;
-    display: none;
-}
-#check{
-    display: none;
-} */
-
 a.active, a:hover{
     background-color: #1b9bff;
     transition: .5s;
@@ -99,7 +84,7 @@ a.active, a:hover{
 }
 .half-width h1{
     color: white;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 80px;;
     padding-right: 100px;
 }
@@ -110,7 +95,6 @@ a.active, a:hover{
     position: absolute;
     letter-spacing: 4px;
     height: 50px;
-    /* width: 180px; */
     line-height: 50px;
     
 }
@@ -241,16 +225,10 @@ a.active, a:hover{
         padding-right: 27px;
         width: 300px;
     }
-    /* .banner img{
-        padding-right: 27px;
-        width: 300px;
-        padding-top: 100px;
-    } */
     .banner{
         flex-direction: column;
     }
     .banner img{
-        
     padding-top: 100px;
     padding-left: 15px;
     }
@@ -266,20 +244,18 @@ a.active, a:hover{
         padding: 10px 0;
         margin-top: 20px;
     }
-    .player-content p{
-        margin: 5px;
-    }
     .player img{
         width: 380px;
         height: 220px;  
     }
+    .player-content p{
+        margin: 5px;
+    }
     .highlights{
-        
         padding-top: 100px;
         padding-left: 15px;
         flex-direction: column;
         padding: 0;
-    
     }
     .highlight{
         margin: 10px;
