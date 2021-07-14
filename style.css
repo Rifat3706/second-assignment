@@ -101,7 +101,7 @@ nav ul li a{
     height: 10px;
     background-color: white;
     transition: 1s;
-    mix-blend-mode: hue;
+    mix-blend-mode: overlay;
 }
 .watch-now:before{
     top: -4px;
