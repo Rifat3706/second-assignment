@@ -229,7 +229,7 @@ nav ul li a{
     padding-left: 15px;
     }
     .players-area{
-        margin: 0 20px;
+        margin: 0 30px;
     }
     .players{
         grid-template-columns: repeat(1, 1fr);
@@ -254,7 +254,7 @@ nav ul li a{
         padding: 0;
     }
     .highlight{
-        margin: 10px;
+        margin: 30px;
     }
     .highlight h1{
         font-size: 40px;
@@ -268,7 +268,7 @@ nav ul li a{
         padding-right: 400px;
     }
     .footer-image img{
-        width: 85%;
+        width: 100%;
         padding-left: 200px;
     }
     .social-area{
@@ -276,6 +276,9 @@ nav ul li a{
     }
     .social-icon{
         padding: 0 120px;
+    }
+    .social-icon i{
+        padding-top: 20px;
     }
 }
 
