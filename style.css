@@ -46,10 +46,6 @@ nav ul li a{
     padding: 7px 13px;
     border-radius: 3px;
 }
-a.active, a:hover{
-    background-color: #1b9bff;
-    transition: .5s;
-}
 .log-in-button{
     display: flex;
     align-items: center;
